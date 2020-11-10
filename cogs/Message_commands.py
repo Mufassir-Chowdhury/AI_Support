@@ -20,20 +20,20 @@ class mComms(commands.Cog):
 
     @commands.command()
     async def exam(self, ctx):
-        await ctx.send("EEE 1-1:"
-                        "Quiz"
-                        "15 November"
-                        "Chapter 1, 2, 3, 4, 6, 7"
-                        " "
-                        "Math:"
-                        "Presentation + Viva"
-                        "Starting from 20 November."
-                        "Presentation must be hand written. At least 20 minutes of presentation required. Differential Calculus." 
-                        " "
-                        "Ethics:"
-                        "Quiz"
-                        "16 November."  
-                        "Everything discussed starting from plagiarism.")
+        await ctx.send("**EEE 1-1:**\n"
+                        "Quiz\n"
+                        "15 November\n"
+                        "Chapter 1, 2, 3, 4, 6, 7\n"
+                        " \n"
+                        "**Math:**\n"
+                        "Presentation + Viva\n"
+                        "Starting from 20 November.\n"
+                        "Presentation must be hand written. At least 20 minutes of presentation required. Differential Calculus.\n" 
+                        " \n"
+                        "**Ethics:**\n"
+                        "Quiz\n"
+                        "16 November.\n"  
+                        "Everything discussed starting from plagiarism.\n")
     
     @commands.command()
     async def assignment(self, ctx):
